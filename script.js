@@ -28,11 +28,11 @@ function getQuote() {
  		$('.author').text("Author: " + quoteAuthor);
  		$('.tweet').attr('href', tweet);
  	}
-
- 	$(document).ready(function(){
+ }
+ $(document).ready(function(){
  		getQuote();
  		$('.trigger').click(function(){
  			getQuote();
  		})
  	});
- }
+ 
